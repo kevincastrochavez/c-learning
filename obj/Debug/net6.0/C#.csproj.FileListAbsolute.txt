@@ -1,0 +1,15 @@
+/Users/kevincastro/Desktop/Programs/C#/bin/Debug/net6.0/C#
+/Users/kevincastro/Desktop/Programs/C#/bin/Debug/net6.0/C#.deps.json
+/Users/kevincastro/Desktop/Programs/C#/bin/Debug/net6.0/C#.runtimeconfig.json
+/Users/kevincastro/Desktop/Programs/C#/bin/Debug/net6.0/C#.dll
+/Users/kevincastro/Desktop/Programs/C#/bin/Debug/net6.0/C#.pdb
+/Users/kevincastro/Desktop/Programs/C#/obj/Debug/net6.0/C#.csproj.AssemblyReference.cache
+/Users/kevincastro/Desktop/Programs/C#/obj/Debug/net6.0/C#.GeneratedMSBuildEditorConfig.editorconfig
+/Users/kevincastro/Desktop/Programs/C#/obj/Debug/net6.0/C#.AssemblyInfoInputs.cache
+/Users/kevincastro/Desktop/Programs/C#/obj/Debug/net6.0/C#.AssemblyInfo.cs
+/Users/kevincastro/Desktop/Programs/C#/obj/Debug/net6.0/C#.csproj.CoreCompileInputs.cache
+/Users/kevincastro/Desktop/Programs/C#/obj/Debug/net6.0/C#.dll
+/Users/kevincastro/Desktop/Programs/C#/obj/Debug/net6.0/refint/C#.dll
+/Users/kevincastro/Desktop/Programs/C#/obj/Debug/net6.0/C#.pdb
+/Users/kevincastro/Desktop/Programs/C#/obj/Debug/net6.0/C#.genruntimeconfig.cache
+/Users/kevincastro/Desktop/Programs/C#/obj/Debug/net6.0/ref/C#.dll
