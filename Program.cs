@@ -19,10 +19,19 @@
 // Console.WriteLine(floatResult); 
 
 // The string datatype comes from System, using the String class
-string myName = "Kevin";
-string capsString = myName.ToUpper();
-string lowerString = myName.ToLower();
+// string myName = "Kevin";
+// string capsString = myName.ToUpper();
+// string lowerString = myName.ToLower();
 
-Console.WriteLine(myName);
-Console.WriteLine(capsString);
-Console.WriteLine(lowerString);
+// Console.WriteLine(myName);
+// Console.WriteLine(capsString);
+// Console.WriteLine(lowerString);
+
+Console.WriteLine("Cursor in different line");
+Console.Write("Cursor in same line");
+string readInput = Console.ReadLine();
+int readAsciiValue = Console.Read();
+
+
+Console.WriteLine(readInput);
+Console.WriteLine(readAsciiValue); // Gets the Ascii value
