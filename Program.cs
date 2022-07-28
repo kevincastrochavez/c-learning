@@ -27,11 +27,31 @@
 // Console.WriteLine(capsString);
 // Console.WriteLine(lowerString);
 
-Console.WriteLine("Cursor in different line");
-Console.Write("Cursor in same line");
-string readInput = Console.ReadLine();
-int readAsciiValue = Console.Read();
+// Console.WriteLine("Cursor in different line");
+// Console.Write("Cursor in same line");
+// string readInput = Console.ReadLine();
+// int readAsciiValue = Console.Read();
 
 
-Console.WriteLine(readInput);
-Console.WriteLine(readAsciiValue); // Gets the Ascii value
+// Console.WriteLine(readInput);
+// Console.WriteLine(readAsciiValue); // Gets the Ascii value
+
+//////////// IMPLICIT AND EXPLICIT CONVERSION ////////////
+
+// Explicit conversion
+double myDouble = 13.37;
+int myInt;
+
+// CASTING
+myInt = (int)myDouble;
+Console.WriteLine(myInt);
+
+// Implicit conversion
+int num = 12345;
+long bigNum = num;
+
+float myFloat = 13.37;
+double myOtherDouble = myFloat;
+
+// Type conversion
+string myString = myDouble.ToString();
