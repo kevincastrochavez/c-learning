@@ -36,22 +36,39 @@
 // Console.WriteLine(readInput);
 // Console.WriteLine(readAsciiValue); // Gets the Ascii value
 
-//////////// IMPLICIT AND EXPLICIT CONVERSION ////////////
 
-// Explicit conversion
-double myDouble = 13.37;
-int myInt;
 
-// CASTING
-myInt = (int)myDouble;
-Console.WriteLine(myInt);
 
-// Implicit conversion
-int num = 12345;
-long bigNum = num;
+// //////////// IMPLICIT AND EXPLICIT CONVERSION ////////////
 
-float myFloat = 13.37;
-double myOtherDouble = myFloat;
+// // Explicit conversion
+// double myDouble = 13.37;
+// int myInt;
 
-// Type conversion
-string myString = myDouble.ToString();
+// // CASTING
+// myInt = (int)myDouble;
+// Console.WriteLine(myInt);
+
+// // Implicit conversion
+// int num = 12345;
+// long bigNum = num;
+
+// float myFloat = 13.37;
+// double myOtherDouble = myFloat;
+
+// // Type conversion
+// string myString = myDouble.ToString();
+
+
+
+
+///////////// PARSING STRING TO INTERGER ////////////
+
+string myString = "15";
+string mySecondString = "13";
+int numOne = Int32.Parse(myString);
+int numTwo = Int32.Parse(mySecondString);
+
+int result = numOne + numTwo;
+
+Console.WriteLine(result);
