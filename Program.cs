@@ -62,13 +62,34 @@
 
 
 
+// ///////////// PARSING STRING TO INTERGER ////////////
+
+// string myString = "15";
+// string mySecondString = "13";
+// int numOne = Int32.Parse(myString);
+// int numTwo = Int32.Parse(mySecondString);
+
+// int result = numOne + numTwo;
+
+// Console.WriteLine(result);
+
+
+
+
 ///////////// PARSING STRING TO INTERGER ////////////
 
-string myString = "15";
-string mySecondString = "13";
-int numOne = Int32.Parse(myString);
-int numTwo = Int32.Parse(mySecondString);
+string name = "Kevin";
+int age = 25;
 
-int result = numOne + numTwo;
+// String Concatenation
+Console.WriteLine("Hello, my name is " + name + ". I'm " + age + " years old");
 
-Console.WriteLine(result);
+// String Formatting
+Console.WriteLine("Hello, my name is {0}. I'm {1} years old", name, age);
+
+// String Formatting
+Console.WriteLine($"Hello, my name is {name}. I'm {age} years old");
+
+// Verbatim Strings
+// Takes string literally and ignores any spaces or escape characters like \n
+Console.WriteLine(@"Hello, my name is Kevin. I'm 25 years old. Hello, my name is Kevin. I'm 25 years old. Hello, my name is Kevin. I'm 25 years old. Hello, my name is Kevin. I'm 25 years old. Hello, my name is Kevin. I'm 25 years old. Hello, my name is Kevin. I'm 25 years old. Hello, my name is Kevin. I'm 25 years old. Hello, my name is Kevin. I'm 25 years old");
