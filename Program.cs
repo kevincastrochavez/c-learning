@@ -96,13 +96,27 @@
 
 
 
-///////////// STRING METHODS ////////////
+// ///////////// STRING METHODS ////////////
 
-string firstName = " Kevin Castro";
+// string firstName = " Kevin Castro";
 
-Console.WriteLine(firstName.ToUpper());
-Console.WriteLine(firstName.ToLower());
-Console.WriteLine(firstName.Substring(4));
-Console.WriteLine(firstName.Trim());
-Console.WriteLine(firstName.IndexOf("C"));
-Console.WriteLine(String.IsNullOrWhiteSpace(firstName));
+// Console.WriteLine(firstName.ToUpper());
+// Console.WriteLine(firstName.ToLower());
+// Console.WriteLine(firstName.Substring(4));
+// Console.WriteLine(firstName.Trim());
+// Console.WriteLine(firstName.IndexOf("C"));
+// Console.WriteLine(String.IsNullOrWhiteSpace(firstName));
+
+
+
+
+///////////// CHALLENGE ////////////
+
+Console.Write("Enter a string here: ");
+string enteredString = Console.ReadLine();
+
+Console.Write("Enter the character to search from the string you just entered: ");
+string characterToSearch = Console.ReadLine();
+
+int indexOfCharacter = enteredString.IndexOf(characterToSearch);
+Console.WriteLine($"The index of the character you are searching is: {indexOfCharacter}");
