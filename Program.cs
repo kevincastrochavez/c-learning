@@ -110,13 +110,29 @@
 
 
 
-///////////// CHALLENGE ////////////
+// ///////////// CHALLENGE ////////////
 
-Console.Write("Enter a string here: ");
-string enteredString = Console.ReadLine();
+// Console.Write("Enter a string here: ");
+// string enteredString = Console.ReadLine();
 
-Console.Write("Enter the character to search from the string you just entered: ");
-string characterToSearch = Console.ReadLine();
+// Console.Write("Enter the character to search from the string you just entered: ");
+// string characterToSearch = Console.ReadLine();
 
-int indexOfCharacter = enteredString.IndexOf(characterToSearch);
-Console.WriteLine($"The index of the character you are searching is: {indexOfCharacter}");
+// int indexOfCharacter = enteredString.IndexOf(characterToSearch);
+// Console.WriteLine($"The index of the character you are searching is: {indexOfCharacter}");
+
+
+
+
+///////////// CONSTANTS ////////////
+
+public class Program
+{
+    const double PI = 3.14159265359;
+    const int weeks = 52, months = 12;
+
+    static void Main()
+    {
+        
+    }
+}
