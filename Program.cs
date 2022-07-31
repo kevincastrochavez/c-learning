@@ -76,20 +76,33 @@
 
 
 
-///////////// PARSING STRING TO INTERGER ////////////
+// ///////////// PARSING STRING TO INTERGER ////////////
 
-string name = "Kevin";
-int age = 25;
+// string name = "Kevin";
+// int age = 25;
 
-// String Concatenation
-Console.WriteLine("Hello, my name is " + name + ". I'm " + age + " years old");
+// // String Concatenation
+// Console.WriteLine("Hello, my name is " + name + ". I'm " + age + " years old");
 
-// String Formatting
-Console.WriteLine("Hello, my name is {0}. I'm {1} years old", name, age);
+// // String Formatting
+// Console.WriteLine("Hello, my name is {0}. I'm {1} years old", name, age);
 
-// String Formatting
-Console.WriteLine($"Hello, my name is {name}. I'm {age} years old");
+// // String Formatting
+// Console.WriteLine($"Hello, my name is {name}. I'm {age} years old");
 
-// Verbatim Strings
-// Takes string literally and ignores any spaces or escape characters like \n
-Console.WriteLine(@"Hello, my name is Kevin. I'm 25 years old. Hello, my name is Kevin. I'm 25 years old. Hello, my name is Kevin. I'm 25 years old. Hello, my name is Kevin. I'm 25 years old. Hello, my name is Kevin. I'm 25 years old. Hello, my name is Kevin. I'm 25 years old. Hello, my name is Kevin. I'm 25 years old. Hello, my name is Kevin. I'm 25 years old");
+// // Verbatim Strings
+// // Takes string literally and ignores any spaces or escape characters like \n
+// Console.WriteLine(@"Hello, my name is Kevin. I'm 25 years old. Hello, my name is Kevin. I'm 25 years old. Hello, my name is Kevin. I'm 25 years old. Hello, my name is Kevin. I'm 25 years old. Hello, my name is Kevin. I'm 25 years old. Hello, my name is Kevin. I'm 25 years old. Hello, my name is Kevin. I'm 25 years old. Hello, my name is Kevin. I'm 25 years old");
+
+
+
+///////////// STRING METHODS ////////////
+
+string firstName = " Kevin Castro";
+
+Console.WriteLine(firstName.ToUpper());
+Console.WriteLine(firstName.ToLower());
+Console.WriteLine(firstName.Substring(4));
+Console.WriteLine(firstName.Trim());
+Console.WriteLine(firstName.IndexOf("C"));
+Console.WriteLine(String.IsNullOrWhiteSpace(firstName));
