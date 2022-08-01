@@ -196,20 +196,41 @@
 
 
 
-///////////// TRYPARSE ////////////
+// ///////////// TRYPARSE ////////////
+
+// Console.WriteLine("What's the current temperature");
+// string temperature = Console.ReadLine();
+// int numTemp;
+// int number;
+
+// if (int.TryParse(temperature, out number))
+// {
+//     numTemp = number;
+// } 
+// else
+// {
+//     numTemp = 0;
+//     Console.WriteLine("Value entered was not a number. 0 set as temperature");
+// }
 
 
-Console.WriteLine("What's the current temperature");
-string temperature = Console.ReadLine();
-int numTemp;
-int number;
 
-if (int.TryParse(temperature, out number))
+///////////// SWITCH ////////////
+
+int age = 25;
+
+switch (age)
 {
-    numTemp = number;
-} 
-else
-{
-    numTemp = 0;
-    Console.WriteLine("Value entered was not a number. 0 set as temperature");
+    case 10:
+        Console.WriteLine("Age is 10");
+        break;
+    case 15:
+        Console.WriteLine("Age is 15");
+        break;
+    case 25:
+        Console.WriteLine("You got it");
+        break;
+    default:
+        Console.WriteLine("Not valid");
+        break;
 }
