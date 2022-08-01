@@ -169,9 +169,27 @@
 
 
 
-///////////// OPERATIONS ////////////
+// ///////////// OPERATIONS ////////////
 
-int num = 1;
+// int num = 1;
 
-Console.WriteLine(++num);
-Console.WriteLine(num++);
+// Console.WriteLine(++num);
+// Console.WriteLine(num++);
+
+
+
+
+///////////// CONDITIONS ////////////
+
+Console.WriteLine("What's the current temperature");
+int temperature = int.Parse(Console.ReadLine());
+
+if (temperature > 50)
+{
+    Console.WriteLine("Greater that 50");
+}
+
+if (temperature < 50)
+{
+    Console.WriteLine("Lower that 50");
+}
