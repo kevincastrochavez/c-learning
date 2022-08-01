@@ -179,17 +179,37 @@
 
 
 
-///////////// CONDITIONS ////////////
+// ///////////// CONDITIONS ////////////
+
+// Console.WriteLine("What's the current temperature");
+// int temperature = int.Parse(Console.ReadLine());
+
+// if (temperature > 50)
+// {
+//     Console.WriteLine("Greater that 50");
+// }
+
+// if (temperature < 50)
+// {
+//     Console.WriteLine("Lower that 50");
+// }
+
+
+
+///////////// TRYPARSE ////////////
+
 
 Console.WriteLine("What's the current temperature");
-int temperature = int.Parse(Console.ReadLine());
+string temperature = Console.ReadLine();
+int numTemp;
+int number;
 
-if (temperature > 50)
+if (int.TryParse(temperature, out number))
 {
-    Console.WriteLine("Greater that 50");
-}
-
-if (temperature < 50)
+    numTemp = number;
+} 
+else
 {
-    Console.WriteLine("Lower that 50");
+    numTemp = 0;
+    Console.WriteLine("Value entered was not a number. 0 set as temperature");
 }
