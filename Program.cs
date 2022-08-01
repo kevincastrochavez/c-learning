@@ -139,30 +139,39 @@
 
 
 
-///////////// VOID METHODS ////////////
+// ///////////// VOID METHODS ////////////
 
-public class Program
-{
-    static void Main(string[] args)
-    {
-        GreetFriend("Citlalli");
-        GreetFriend("Cindy");
-        GreetFriend("David");
-    }
+// public class Program
+// {
+//     static void Main(string[] args)
+//     {
+//         GreetFriend("Citlalli");
+//         GreetFriend("Cindy");
+//         GreetFriend("David");
+//     }
     
-    public static void  GreetFriend(string friend)
-    {
-        try
-        {
-            Console.WriteLine($"Hi {friend}, my friend!");
-        }
-        catch (Exception)
-        {
-            Console.WriteLine("Some wierd exception");
-        }
-        finally // Called anyways
-        {
-            Console.WriteLine("Finished");
-        }
-    }
-}
+//     public static void  GreetFriend(string friend)
+//     {
+//         try
+//         {
+//             Console.WriteLine($"Hi {friend}, my friend!");
+//         }
+//         catch (Exception)
+//         {
+//             Console.WriteLine("Some wierd exception");
+//         }
+//         finally // Called anyways
+//         {
+//             Console.WriteLine("Finished");
+//         }
+//     }
+// }
+
+
+
+///////////// OPERATIONS ////////////
+
+int num = 1;
+
+Console.WriteLine(++num);
+Console.WriteLine(num++);
