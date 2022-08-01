@@ -124,15 +124,45 @@
 
 
 
-///////////// CONSTANTS ////////////
+// ///////////// CONSTANTS ////////////
+
+// public class Program
+// {
+//     const double PI = 3.14159265359;
+//     const int weeks = 52, months = 12;
+
+//     static void Main()
+//     {
+        
+//     }
+// }
+
+
+
+///////////// VOID METHODS ////////////
 
 public class Program
 {
-    const double PI = 3.14159265359;
-    const int weeks = 52, months = 12;
-
-    static void Main()
+    static void Main(string[] args)
     {
-        
+        GreetFriend("Citlalli");
+        GreetFriend("Cindy");
+        GreetFriend("David");
+    }
+    
+    public static void  GreetFriend(string friend)
+    {
+        try
+        {
+            Console.WriteLine($"Hi {friend}, my friend!");
+        }
+        catch (Exception)
+        {
+            Console.WriteLine("Some wierd exception");
+        }
+        finally // Called anyways
+        {
+            Console.WriteLine("Finished");
+        }
     }
 }
