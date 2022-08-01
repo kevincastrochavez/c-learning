@@ -215,22 +215,31 @@
 
 
 
-///////////// SWITCH ////////////
+// ///////////// SWITCH ////////////
 
-int age = 25;
+// int age = 25;
 
-switch (age)
-{
-    case 10:
-        Console.WriteLine("Age is 10");
-        break;
-    case 15:
-        Console.WriteLine("Age is 15");
-        break;
-    case 25:
-        Console.WriteLine("You got it");
-        break;
-    default:
-        Console.WriteLine("Not valid");
-        break;
-}
+// switch (age)
+// {
+//     case 10:
+//         Console.WriteLine("Age is 10");
+//         break;
+//     case 15:
+//         Console.WriteLine("Age is 15");
+//         break;
+//     case 25:
+//         Console.WriteLine("You got it");
+//         break;
+//     default:
+//         Console.WriteLine("Not valid");
+//         break;
+// }
+
+
+
+///////////// TERNARY OPERATOR ////////////
+
+int temperature = 5;
+
+string stateOfMatter = temperature < 0 ? "Solid" : "Liquid";
+Console.WriteLine($"State of matter is {stateOfMatter}");
