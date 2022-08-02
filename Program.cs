@@ -239,7 +239,22 @@
 
 ///////////// TERNARY OPERATOR ////////////
 
-int temperature = 5;
+// int temperature = 5;
 
-string stateOfMatter = temperature < 0 ? "Solid" : "Liquid";
-Console.WriteLine($"State of matter is {stateOfMatter}");
+// string stateOfMatter = temperature < 0 ? "Solid" : "Liquid";
+// Console.WriteLine($"State of matter is {stateOfMatter}");
+
+
+
+///////////// EXERCISE PARSING ////////////
+
+// using System.Globalization;
+
+// string stringForFloat = "0.85"; // datatype should be float
+// string stringForInt = "12345"; // datatype should be int
+
+// int intParsed = Int32.Parse(stringForInt);
+// float floatParsed = float.Parse(stringForFloat, CultureInfo.InvariantCulture.NumberFormat);
+
+// Console.WriteLine(intParsed);
+// Console.WriteLine(floatParsed);
