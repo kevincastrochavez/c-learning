@@ -258,3 +258,26 @@
 
 // Console.WriteLine(intParsed);
 // Console.WriteLine(floatParsed);
+
+
+
+///////////// LOOPS ////////////
+
+int counter = 0;
+
+// for (var counter = 0; counter < 10; counter++)
+// {
+//     Console.WriteLine(counter);
+// }
+
+// do
+// {
+//     Console.WriteLine("Counter increasing");
+//     counter++;
+// } while (counter < 10);
+
+while (counter < 10)
+{
+    Console.WriteLine("Increasing counter");
+    counter++;
+}
