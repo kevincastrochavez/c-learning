@@ -276,8 +276,8 @@ int counter = 0;
 //     counter++;
 // } while (counter < 10);
 
-while (counter < 10)
-{
-    Console.WriteLine("Increasing counter");
-    counter++;
-}
+// while (counter < 10)
+// {
+//     Console.WriteLine("Increasing counter");
+//     counter++;
+// }
