@@ -263,7 +263,7 @@
 
 ///////////// LOOPS ////////////
 
-int counter = 0;
+// int counter = 0;
 
 // for (var counter = 0; counter < 10; counter++)
 // {
@@ -281,3 +281,34 @@ int counter = 0;
 //     Console.WriteLine("Increasing counter");
 //     counter++;
 // }
+
+// break gets out of the current loop
+
+
+
+///////////// CHALLENGE ////////////
+
+int scoreTotal = 0;
+int students = 5;
+
+for (var i = 0; i < students; i++)
+{
+    Console.WriteLine("Enter the student's score");
+    string scoreEntered = Console.ReadLine();
+    int score;
+    int scoreParsed;
+
+    if (int.TryParse(scoreEntered, out score))
+    {
+        scoreParsed = score;
+    } 
+    else
+    {
+        scoreParsed = 0;
+        Console.WriteLine("Value entered was not a number. No score was added to the total score");
+    }
+
+    scoreTotal += scoreParsed;
+}
+
+Console.WriteLine(scoreTotal);
